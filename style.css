@@ -24,6 +24,7 @@ a:hover {
     text-decoration: none;
     overflow: hidden;
     background-color: white;
+    border: 1px solid #d8d8d8;
     color: black;
 }
 
@@ -34,8 +35,10 @@ a:hover {
     overflow: hidden;
     width: 60%;
     height: 40px;
-    border: 1px solid #d8d8d8;
-    background-color: whitesmoke;
+    border-left: 1px solid #d8d8d8;
+    border-right: 1px solid #d8d8d8;
+    border-top: 1px solid #d8d8d8;
+    background-color: white;
 }
 
 #nav1 span {
