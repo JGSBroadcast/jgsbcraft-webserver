@@ -1,0 +1,94 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: whitesmoke;
+    color: #000000;
+	font-family: Arial;
+}
+
+a:link, a:visited {
+    color: #ff0000;
+}
+
+a:hover {
+    color: #990000;
+}
+
+#body1 {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 0px;
+    text-decoration: none;
+    overflow: hidden;
+    background-color: white;
+    color: black;
+}
+
+#nav1 {
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    overflow: hidden;
+    width: 60%;
+    height: 40px;
+    border: 1px solid #d8d8d8;
+    background-color: whitesmoke;
+}
+
+#nav1 span {
+    padding: 0;
+    font-weight: bold;
+    text-decoration:none;
+    font-size: 18px;
+    line-height: 40px;
+    color: #FF0000;
+ }
+
+#nav1 span a {
+	height: 45px;
+	line-height: 33px;
+	display: block;
+	padding: 3px 10px;
+	color: #FF0000;
+	text-decoration:none;
+}
+
+#nav1 span:hover { 
+    background-color: #FF0000;
+    text-decoration: none;  
+}
+
+#nav1 span:hover a,
+#nav1 span a:hover {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#nav1 span.left {
+	float: left;
+    border-right: 1px solid #d8d8d8;
+}
+
+#nav1 span.right {
+	float: right;
+    border-left: 1px solid #d8d8d8;
+}
+
+#nav1 span.right a {
+	font-size: 12px;
+}
+
+#slideshow {
+	width: 1280px;
+	height: 719px;
+	position: relative;
+}
+
+.slide {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
